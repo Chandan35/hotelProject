@@ -1,0 +1,77 @@
+
+#title {
+  background-color: #698474;
+  padding: 7% 15%;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 11% 0 0 15%;
+  color: #fff;
+  
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding: 2% 0 0 15%;
+}
+.paragragh {
+  padding: 8% 0%  20% 15%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+.pic {
+  padding-top: 13%;
+  width: 400px;
+}
+.nav-item {
+  padding-right: 7%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #f6d365;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 15%;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.icon {
+  padding-top: 5%;
+  padding-left: 18%;
+}
+.insta , .fb , .tw , .wa {
+  margin: 10px;
+}
